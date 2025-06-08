@@ -1,3 +1,5 @@
 name: "Marc Matter Hub Add-on Repo"
 url: "https://github.com/Pocket74/home-assistant-matterhub-alpha81"
 maintainer: "Marc Müller <marc.mueller@servicemueller.de>"
+addons:
+  - addons/matterhub-alpha81
