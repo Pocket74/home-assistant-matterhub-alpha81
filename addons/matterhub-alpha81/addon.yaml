@@ -1,0 +1,22 @@
+name: "Home Assistant Matter Hub (v3.0.0-alpha.81)"
+version: "3.0.0-alpha.81"
+slug: "matterhub_alpha81"
+description: "Matter Hub for Home Assistant - pinned to v3.0.0-alpha.81."
+startup: services
+host_network: true
+privileged:
+  - NET_ADMIN
+  - NET_RAW
+ports:
+  5580/tcp: 5580
+  5583/tcp: 5583
+  5583/udp: 5583
+  5353/udp: 5353
+ports_description:
+  "5580/tcp": "Web Interface"
+  "5583/tcp": "Matter UDP port"
+  "5353/udp": "mDNS"
+arch:
+  - amd64
+  - armv7
+  - aarch64
